@@ -96,9 +96,9 @@ gap: 40px;
 
 .header-address-item {
     display: flex;
-   
-    margin-left: 32px;
+    justify-content: space-between;
     padding: 24px 0;
+    gap: 40px;
 }
 
 .header-logo-accent {
@@ -195,7 +195,7 @@ gap: 40px;
 
 
     .visually-hidden {
-            position: absolute;
+        position: absolute;
             width: 1px;
             height: 1px;
             margin: -1px;
@@ -210,7 +210,7 @@ gap: 40px;
 
 .philosophy-list {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 24px;
     
 }
@@ -234,7 +234,7 @@ gap: 40px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-top: 8px;
+        
 }
 
 /* =================section-team=================
@@ -294,7 +294,7 @@ gap: 40px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-top: 8px;
+        
         text-align: center;
 }
 
@@ -323,7 +323,6 @@ gap: 40px;
    
     display: flex;
     flex-wrap: wrap;
-    
     gap: 24px;
     row-gap: 48px;
 }
@@ -353,7 +352,7 @@ gap: 40px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-top: 8px;
+        
 }
 
 /* ======================footer======================== */
