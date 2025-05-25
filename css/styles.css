@@ -179,7 +179,8 @@ gap: 40px;
 .philosophy-list {
     display: flex;
     justify-content: center;
-    
+    flex-basis: calc((100% - 72px) / 4);
+    gap: 24;
 }
 
 .philosophy-subtitle {
@@ -224,6 +225,8 @@ gap: 40px;
 .team-list {
     display: flex;
     justify-content: center;
+    flex-basis: calc((100% - 72px) / 4);
+    gap: 24px;
 }
 
 .team-item {
@@ -266,6 +269,14 @@ gap: 40px;
         text-align: center;
         text-transform: capitalize;
         margin-bottom: 72px;
+}
+
+.portfolio-list {
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis:  calc((100% - 48px) / 3);
+    gap: 24px;
 }
 
 .portfolio-subtitle {
@@ -313,6 +324,7 @@ gap: 40px;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         margin-top: 16px;
+        max-width: 264px;
 }
 
 .footer-logo-accent {
