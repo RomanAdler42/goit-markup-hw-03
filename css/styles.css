@@ -32,11 +32,21 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ==================heder================= */
 
 .container {
-    width: 1596px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
+   
 }
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -46,10 +56,32 @@ p, h1, h2, h3, h4, h5, h6 {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        
 }
 
-.header-address {
-    font-style: normal;
+.header-nav-list {
+display: flex;
+gap: 40px;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.header-address-list {
+   display: flex;
+gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header-address-item {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    justify-content: center;
 }
 
 .header-logo-accent {
@@ -91,6 +123,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .section-hero {
     background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -100,6 +136,9 @@ p, h1, h2, h3, h4, h5, h6 {
         line-height: 1.07;
         text-align: center;
         color: #fff;
+        max-width: 496px;
+        margin: 0 auto;
+        margin-bottom: 48px;
 }
 
 .hero-button {
@@ -110,6 +149,9 @@ p, h1, h2, h3, h4, h5, h6 {
         color: #fff;
          background: #4d5ae5;
         cursor: pointer;
+       display: block;
+       margin: 0 auto;
+        
 }
 
 .hero-button:hover {
@@ -122,8 +164,22 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* ==================section-Philosophy================= */
 
+.section-philosophy {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .philosophy-title {
-    text-align: center; 
+    text-align: center;
+    display: none; 
+}
+
+.philosophy-list {
+    display: flex;
+    justify-content: center;
+    
 }
 
 .philosophy-subtitle {
@@ -139,12 +195,17 @@ p, h1, h2, h3, h4, h5, h6 {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        margin-top: 8px;
 }
 
 /* =================section-team=================
 
 */.section-team {
     background: #f4f4fd;
+    padding-top: 120px;
+        padding-bottom: 120px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 
@@ -157,6 +218,12 @@ p, h1, h2, h3, h4, h5, h6 {
         color: #2e2f42;
         text-align: center;
         text-transform: capitalize;
+        margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
 }
 
 .team-item {
@@ -177,11 +244,18 @@ p, h1, h2, h3, h4, h5, h6 {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        margin-top: 8px;
 }
 
 
 /* ==================section-portfolio================ */
 
+.section-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .portfolio-title {
         font-weight: 700;
@@ -191,6 +265,7 @@ p, h1, h2, h3, h4, h5, h6 {
         color: #2e2f42;
         text-align: center;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 
 .portfolio-subtitle {
@@ -207,11 +282,16 @@ p, h1, h2, h3, h4, h5, h6 {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        margin-top: 8px;
 }
 
 /* ======================footer======================== */
 .footer {
     background: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .footer-logo {
@@ -232,6 +312,7 @@ p, h1, h2, h3, h4, h5, h6 {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        margin-top: 16px;
 }
 
 .footer-logo-accent {
